@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    body{
+      background-color: rgb(245, 244, 244);
+    }
+
+    .container {
+      width: 400px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      padding: 10px;
+      font-family: sans-serif;
+      margin: auto;
+      /* text-align: center; */
+
+    }
+
+    h1 {
+      text-align: center;
+
+    }
+
+    b {
+      padding-top: 15px;
+      padding-left: 110px;
+      color: rgb(110, 108, 108);
+      
+    }
+
+    input[type=text] {
+      width: 43%;
+      padding: 10px;
+      margin: 8px 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    select {
+      width: 28%;
+      padding: 10px;
+      margin: 8px 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    input[type=email],
+    input[type=password] {
+      width: 90%;
+      padding: 10px;
+      margin: 8px 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    .f,
+    .m,
+    .c {
+      display: inline-block;
+      width: 28%;
+      padding: 10px;
+      margin: 8px 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+
+    }
+
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+
+    }
+
+
+    a {
+      text-decoration: none;
+      color: navy;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    input[type=radio] {
+      float: right;
+    }
+
+    input[type=submit] {
+      width: 45%;
+      height: 20%;
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin: auto;
+        display: block;
+    }
+
+    
+
+    .already {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: rgb(66, 66, 249);
+      font-size: large;
+    }
+
+    
+
+    .para1 {
+      font-size: small;
+      color: rgb(85, 84, 84);
+    }
+  </style>
+</head>
+
+<body>
+  <img src="fb.jpeg" alt="fb" width="300px">
+  <div class="container">
+    <form action="" target="_blank" autocomplete="on">
+      <h1>Create a new account</h1>
+      <b>It's quick and easy.</b>
+      <br><br>
+      <hr>
+      <input type="text" placeholder="First name" name="fname" id="fname" required>
+      <input type="text" placeholder="Surname" name="sname" id="sname" required>
+      <input type="email" placeholder="Mobile number or email address" name="email" id="email" required><br>
+      <input type="password" placeholder="New password" name="pas" id="pas" required><br>
+      <small>Date of birth</small><br>
+      <select id="date" name="date">
+        <option value="">1</option>
+        <option value="">2</option>
+        <option value="">3</option>
+        <option value="">4</option>
+        <option value="">5</option>
+        <option value="">6</option>
+        <option value="">7</option>
+        <option value="">8</option>
+        <option value="">9</option>
+        <option value="">10</option>
+        <option value="">11</option>
+        <option value="">12</option>
+        <option value="">13</option>
+        <option value="">14</option>
+        <option value="">15</option>
+        <option value="">16</option>
+        <option value="">17</option>
+        <option value="">18</option>
+        <option value="">19</option>
+        <option value="">20</option>
+        <option value="">21</option>
+        <option value="">22</option>
+        <option value="">23</option>
+        <option value="">24</option>
+        <option value="">25</option>
+        <option value="">26</option>
+        <option value="">27</option>
+        <option value="">28</option>
+        <option value="">29</option>
+        <option value="">30</option>
+        <option value="">31</option>
+      </select>
+      <select id="month" name="month">
+        <option value="">Jan</option>
+        <option value="">Feb</option>
+        <option value="">Mar</option>
+        <option value="">Apr</option>
+        <option value="">May</option>
+        <option value="">Jun</option>
+        <option value="">Jul</option>
+        <option value="">Aug</option>
+        <option value="">Sep</option>
+        <option value="">Oct</option>
+        <option value="">Nov</option>
+        <option value="">Dec</option>
+      </select>
+      <select id="year" name="year">
+        <option value="">2000</option>
+        <option value="">2001</option>
+        <option value="">2002</option>
+        <option value="">2003</option>
+        <option value="">2004</option>
+        <option value="">2005</option>
+        <option value="">2006</option>
+        <option value="">2007</option>
+        <option value="">2008</option>
+        <option value="">2009</option>
+        <option value="">2010</option>
+        <option value="">2011</option>
+        <option value="">2012</option>
+        <option value="">2013</option>
+        <option value="">2014</option>
+        <option value="">2015</option>
+        <option value="">2016</option>
+        <option value="">2017</option>
+        <option value="">2018</option>
+        <option value="">2019</option>
+        <option value="">2020</option>
+        <option value="">2021</option>
+        <option value="">2022</option>
+        <option value="">2023</option>
+        <option value="">2024</option>
+      </select>
+      <br>
+      <small>Gender</small><br>
+      <div class="f">
+        <label for="female">Female</label>
+        <input type="radio" name="female" id="female">
+      </div>
+      <div class="m">
+        <label for="male">Male</label>
+        <input type="radio" name="male" id="male">
+      </div>
+      <div class="c">
+        <label for="custom">Custom</label>
+        <input type="radio" name="radio" id="radio">
+      </div>
+      <p class="para1">Lorem adipisicing Lorem. elit. Modi dolorem quos soluta pariatur.<a href="">Learn more.</a></p><br>
+
+      <p class="para1">Lorem ipsum adipisicing elit. <a href="">Terms</a>, <a href="">Privacy
+          Plicy</a> and <a href="">Cookies Plicy</a>. <br>Lorem, ipsum  sit amet consectetur adipisicing elit.
+        Molestiae.</p><br>
+      <input class="btn" type="submit"></input>
+      <br> <a href="" class="already">Already have an account? </a>
+
+    </form>
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: rgb(232, 230, 230);
+}
+
+/* header */
+
+.c1 {
+    background-color: #D8335B;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+
+}
+
+.c2 {
+    background-color: #FEC606;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+
+}
+
+/* card1 */
+
+
+
+
+
+.mt-3{
+    margin-top: 30px;
+}
+
+/* card2 */
+
+
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.same {
+    width: 30%;
+    height: 400px;
+    margin: 23px;
+    box-sizing: border-box;
+    padding: 23px;
+    border-radius: 5px;
+}
+
+.card1 {
+    background-color: rgb(232, 230, 230);
+
+}
+
+.card2 {
+    background-color: rgb(232, 230, 230);
+
+
+}
+
+.card3 {
+    background-color: rgb(232, 230, 230);
+
+}
+
+.card4 {
+    background-color: white;
+
+}
+
+.card5 {
+    background-color: rgb(232, 230, 230);
+
+}
+
+.card6 {
+  background-color: white;
+
+
+
+}
+
+.flex{
+    display: flex;
+}
+.head {
+    width: 60%;
+    height: 200px;
+    background-color: #46BAAB;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head img{
+ height: 200px;
+}
+.head small{
+  color: #C3E8E4
+}
+
+.gray{
+    color: #C3E8E4
+
+}
+
+.div {
+    width: 20%;
+    background-color: rgb(232, 230, 230);
+    font-size: 18px;
+    border: 2px solid red;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+
+.a1 {
+    color: #D8335B;
+}
+
+p {
+    font-size: 11px !important;
+    color: rgb(124, 122, 122);
+}
+
+
+
+
+.clearfix {
+    position: relative;
+    top: -23px;
+    right: -23px;
+}
+
+
+
+
+.wrapper{
+    background: white;
+}
